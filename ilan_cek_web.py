@@ -25,11 +25,6 @@ from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from urllib.parse import urljoin
 
-try:
-    import truststore  # Windows sertifika deposu (SSL hatasini onler)
-    truststore.inject_into_ssl()
-except ImportError:
-    pass
 
 import requests
 import traceback

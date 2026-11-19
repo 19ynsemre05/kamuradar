@@ -32,6 +32,7 @@ except ImportError:
     pass
 
 import requests
+import traceback
 
 for _akis in (sys.stdout, sys.stderr):
     try:

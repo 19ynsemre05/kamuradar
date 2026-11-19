@@ -20,11 +20,13 @@
 }
 :root[data-tema="koyu"]{--bg:#0c1524;--kart:#14213a;--yazi:#e8eef9;--soluk:#9fb0c9;--cizgi:#243452;--gol:0 1px 2px rgba(0,0,0,.4)}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--yazi);font-family:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
+html{scroll-behavior:smooth;overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{margin:0;overflow-x:hidden;max-width:100vw;background:var(--bg);color:var(--yazi);font-family:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
 a{color:inherit}
-.kap{max-width:1180px;margin:0 auto;padding:0 16px}
-button,input,select{font:inherit;color:inherit}
+.kap{max-width:1180px;margin:0 auto;padding:0 16px;min-width:0}
+button,input,select{font:inherit;color:inherit;max-width:100%}
+.ilan,.panel,.mini{min-width:0;overflow-wrap:anywhere}
+.menu{max-width:calc(100vw - 140px)}
 
 /* üst bar */
 .duyuru{background:var(--sari);color:#3b2a00;font-size:13px;font-weight:600;text-align:center;padding:6px 12px}
@@ -65,7 +67,9 @@ header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:3
 
 /* düzen */
 .duzen{display:grid;grid-template-columns:310px 1fr;gap:20px;margin:18px 0 60px;align-items:start}
-@media(max-width:900px){.duzen{grid-template-columns:1fr}}
+@media(max-width:900px){.duzen{grid-template-columns:minmax(0,1fr)}}
+.duzen>*{min-width:0}
+.serit{max-width:100%}
 .panel{background:var(--kart);border:1px solid var(--cizgi);border-radius:16px;padding:16px;box-shadow:var(--gol)}
 .panel h3{margin:0 0 12px;font-size:15px}
 .alan{margin-bottom:11px}
@@ -114,7 +118,7 @@ header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:3
 /* kartlar */
 .ozet{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;color:var(--soluk);font-size:14px}
 .ozet select{padding:7px 10px;border-radius:9px;border:1px solid var(--cizgi);background:var(--kart)}
-.liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:14px}
 @media(max-width:420px){.liste{grid-template-columns:1fr}}
 .ilan{background:var(--kart);border:1px solid var(--cizgi);border-top:4px solid var(--gri);border-radius:16px;padding:15px;box-shadow:var(--gol);display:flex;flex-direction:column;gap:9px;animation:gir .35s both;transition:transform .18s,box-shadow .18s}
 .ilan:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(11,42,74,.14)}
@@ -193,7 +197,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 
 <main class="kap" id="ilanlar">
   <div class="arama-kutu">
-    <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta ...)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
+    <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta, Şanlıurfa)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
   </div>
   <div class="cipler" id="cipler"></div>
 
@@ -207,7 +211,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
         <div class="alan"><label>Bölüm</label><select id="fBolum"><option value="Tümü">Tümü</option></select></div>
         <div class="iki">
           <div class="alan"><label>KPSS türü</label><select id="fTur"></select></div>
-          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="örn. 00,00"></div>
+          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="örn. 72.5"></div>
         </div>
         <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
         <div class="alan"><label>Kurum türü</label><select id="fKurum"></select></div>

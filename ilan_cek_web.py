@@ -558,7 +558,7 @@ def main():
         except Exception as e:  # bir kaynak cokse digerleri calissin
             mesaj = f"{type(e).__name__}: {e}"
             print(f"! {ad} hata verdi: {mesaj}")
-          traceback.print_exc()
+            traceback.print_exc()
             durumlar[ad] = {"durum": "hata", "mesaj": mesaj}
         # her kaynaktan sonra kaydet: sayfa, bitmesini beklemeden ilanlari gostersin
         eskileri_sil(mevcut)

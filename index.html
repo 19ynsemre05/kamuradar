@@ -193,7 +193,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 
 <main class="kap" id="ilanlar">
   <div class="arama-kutu">
-    <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta,)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
+    <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta ...)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
   </div>
   <div class="cipler" id="cipler"></div>
 
@@ -207,7 +207,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
         <div class="alan"><label>Bölüm</label><select id="fBolum"><option value="Tümü">Tümü</option></select></div>
         <div class="iki">
           <div class="alan"><label>KPSS türü</label><select id="fTur"></select></div>
-          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="örn. 00.0"></div>
+          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="örn. 00,00"></div>
         </div>
         <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
         <div class="alan"><label>Kurum türü</label><select id="fKurum"></select></div>
@@ -324,11 +324,15 @@ function hazirla(i,bugun){
   const kalan=bitis?Math.round((bitis-bugun)/864e5):null;
   const metin=norm((i.title||'')+' '+(i.description||''));
   const kpssVar=metin.includes('KPSS')?true:((i.description||'').length>400?false:null);
-  const liste=!i.acik_link&&String(i.link||'').includes('#');
-  const aranan_=((i.institution||'')+' '+(i.title||'')+' personel alım ilanı').replace(/\s+/g,' ').trim();
-  return {...i,liste,link:i.acik_link||(liste?'https://www.google.com/search?q='+encodeURIComponent(aranan_):i.link),minP,pk,bitis,bas:bas_,kalan,tur:kurumTuru(i),kaynak:i.source_name||'ilan.gov.tr',kpssVar,aranan:norm((i.institution||'')+' '+(i.title||'')+' '+(i.city||'')+' '+(i.department||'')),fark:0,durum:'notr'};
+  const puanlar=(i.puanlar&&typeof i.puanlar==='object'&&!Array.isArray(i.puanlar))?i.puanlar:{};
+  const egitimler=Array.isArray(i.egitimler)?i.egitimler:[];
+  if(Object.keys(puanlar).length){minP=Math.min(...Object.values(puanlar));pk='ilan'}
+  const siralama=!(minP>0)&&/PUAN SIRALAMA|BASARI SIRALAMA|SIRALAMASINA GORE|PUANA GORE SIRALAMA/.test(metin);
+  return {...i,puanlar,egitimler,siralama,minP,pk,bitis,bas:bas_,kalan,tur:kurumTuru(i),kaynak:i.source_name||'ilan.gov.tr',kpssVar,aranan:norm((i.institution||'')+' '+(i.title||'')+' '+(i.city||'')+' '+(i.department||'')),fark:0,durum:'notr'};
 }
-function durumHesapla(i,puan){
+function durumHesapla(i,puan,tur){
+  const k=Object.keys(i.puanlar);
+  if(k.length){i.minP=(puan>0&&tur&&i.puanlar[tur])?i.puanlar[tur]:Math.min(...Object.values(i.puanlar))}
   if(!(puan>0)){i.durum='notr';return}
   if(i.minP<=0){i.durum='bilinmiyor';return}
   i.fark=i.minP-puan;
@@ -344,9 +348,10 @@ function kaydet(){const d=durum();['egitim','bolum','tur','puan','sehir','kurum'
 
 function uygun(i,d,durumHaric){
   if(d.sehir&&d.sehir!=='Tümü'&&i.city!==d.sehir) return false;
-  if(d.egitim&&i.education_level&&i.education_level!==d.egitim) return false;
+  if(i.iptal) return false;
+  if(d.egitim){ if(i.egitimler.length){ if(!i.egitimler.includes(d.egitim)) return false } else if(i.education_level&&i.education_level!==d.egitim) return false }
   if(d.bolum!=='Tümü'&&i.department&&i.department!=='Herhangi'&&i.department!==d.bolum) return false;
-  if(d.puan>0&&d.tur&&i.kpss_type&&i.kpss_type!==d.tur) return false;
+  if(d.puan>0&&d.tur){ if(Object.keys(i.puanlar).length){ if(!i.puanlar[d.tur]) return false } else if(i.kpss_type&&i.kpss_type!==d.tur) return false }
   if(d.kurum&&d.kurum!=='Tümü'&&i.tur!==d.kurum) return false;
   if(d.calisma&&i.employment_type!==d.calisma) return false;
   if(d.kaynak&&d.kaynak!=='Tümü'&&i.kaynak!==d.kaynak) return false;
@@ -378,15 +383,18 @@ function kart(i,idx){
   if(i.durum==='sari') rz.push(`<span class="rozet r-sari">🟡 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`);
   if(i.durum==='kirmizi') rz.push(`<span class="rozet r-kirmizi">🔴 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`);
   if(i.durum==='bilinmiyor') rz.push('<span class="rozet">⚪ Taban puan okunamadı</span>');
-  if(i.minP>0) rz.push(`<span class="rozet r-mavi">Taban ${String(i.minP).replace('.',',')}${i.pk==='tahmin'?' (tahmin)':i.pk==='manuel'?' (elle)':''}</span>`);
-  if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
-  if(i.kpss_type) rz.push(`<span class="rozet">${esc(i.kpss_type)}</span>`);
+  if(i.minP>0&&!Object.keys(i.puanlar).length) rz.push(`<span class="rozet r-mavi">Taban ${String(i.minP).replace('.',',')}${i.pk==='tahmin'?' (tahmin)':i.pk==='manuel'?' (elle)':''}</span>`);
+  const pk_=Object.keys(i.puanlar);
+  if(pk_.length){ rz.push(...pk_.map(t=>`<span class="rozet r-mavi">${esc(t)} ≥ ${String(i.puanlar[t]).replace('.',',')}</span>`)) }
+  else{ if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
+        if(i.kpss_type) rz.push(`<span class="rozet">${esc(i.kpss_type)}</span>`); }
+  if(i.siralama) rz.push('<span class="rozet r-kontrol" title="Alım KPSS puan sıralamasına göre yapılıyor; sabit bir taban puan yazılmamış">KPSS sıralamasıyla alım</span>');
   if(i.kpssVar===false) rz.push('<span class="rozet r-yesil">KPSS şartsız</span>');
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
   if(parseInt(i.quota)>0) rz.push(`<span class="rozet">${parseInt(i.quota)} kişi</span>`);
   if(i.akademik) rz.push('<span class="rozet">Akademik</span>');
   if(i.kontrol_gerekli) rz.push('<span class="rozet r-kontrol">⚠ Resmî kaynaktan kontrol et</span>');
-  if(i.liste) rz.push('<span class="rozet r-kontrol" title="Bu ilanın doğrudan adresi alınamadı">ℹ Doğrudan bağlantı yok · aratarak bul</span>');
+  if(String(i.link).includes('#')) rz.push('<span class="rozet r-kontrol" title="Bu kaynağın ilan adresi kalıcı değil">ℹ Açılan listede başlığı ara</span>');
   const giris=(i.durum==='bilinmiyor')?`<div class="sehir">İlan metninde taban puan bulunamadı. Resmî ilana bak, biliyorsan yaz:</div><div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
   const f=favoriler.has(String(i.id));
   return `<article class="ilan ${i.durum}" style="animation-delay:${Math.min(idx,12)*30}ms">
@@ -395,12 +403,12 @@ function kart(i,idx){
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
    <div class="rozetler">${rz.join('')}</div>${giris}
-   <div class="alt"><div>${son(i)}<br><span>${esc(i.kaynak)}</span></div><a class="incele" target="_blank" rel="noopener" href="${esc(i.link)}">${i.liste?'Aratarak bul →':'İncele →'}</a></div></article>`;
+   <div class="alt"><div>${son(i)}<br><span>${esc(i.kaynak)}</span></div><a class="incele" target="_blank" rel="noopener" href="${esc(i.link)}"${String(i.link).includes('#')?` data-kopya="${esc(i.title)}"`:''}>İncele →</a></div></article>`;
 }
 
 function listele(){
   const d=durum(), bugun=new Date(); bugun.setHours(0,0,0,0);
-  tum.forEach(i=>{i.kalan=i.bitis?Math.round((i.bitis-bugun)/864e5):null; durumHesapla(i,d.puan)});
+  tum.forEach(i=>{i.kalan=i.bitis?Math.round((i.bitis-bugun)/864e5):null; durumHesapla(i,d.puan,d.tur)});
   const aday=tum.filter(i=>uygun(i,d));
 
   // il sayıları (şehir süzgeci hariç)
@@ -554,6 +562,11 @@ $('cipler').addEventListener('click',e=>{const b=e.target.closest('.cip');if(!b)
 $('durumAlani').addEventListener('click',e=>{const b=e.target.closest('.durum-btn');if(!b)return;durumFiltre=b.dataset.durum;yenidenCiz()});
 $('iller').addEventListener('click',e=>{const b=e.target.closest('.il');if(!b)return;$('fSehir').value=b.dataset.il;kaydet();yenidenCiz();window.scrollTo({top:$('ilanlar').offsetTop,behavior:'smooth'})});
 $('liste').addEventListener('click',e=>{
+  const kp=e.target.closest('[data-kopya]');
+  if(kp){try{navigator.clipboard.writeText(kp.dataset.kopya)}catch(x){}
+    const t=document.createElement('div');t.textContent='Başlık kopyalandı. Açılan sayfada Ctrl+F ile yapıştırıp ilanı bul.';
+    t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0b2a4a;color:#fff;padding:12px 18px;border-radius:12px;z-index:99;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.3);max-width:90vw';
+    document.body.appendChild(t);setTimeout(()=>t.remove(),4500)}
   const f=e.target.closest('[data-fav]');
   if(f){const id=f.dataset.fav;favoriler.has(id)?favoriler.delete(id):favoriler.add(id);yaz('k_fav',JSON.stringify([...favoriler]));listele();return}
   const k=e.target.closest('[data-kaydet]');
@@ -574,16 +587,13 @@ async function yerelGuncelle(){
   const kutu=document.createElement('div');kutu.className='canli';$('canli').after(kutu);
   try{
     let r=await (await fetch('guncelle.php?islem=baslat',{cache:'no-store'})).json();
-    const tani=' <a href="tani.php" target="_blank">Tanı raporunu aç</a> ve içeriğini bana gönder.';
-    if(r.durum==='hata'){kutu.innerHTML='⚠ Otomatik güncelleme çalışmadı: '+esc(r.mesaj||'')+tani;return}
-    if(r.durum==='taze'){kutu.innerHTML=tum.length?'✅ Veriler yakın zamanda güncellenmiş.':'⚠ Güncelleme yapılmış görünüyor ama ilan yok.'+tani;return}
-    kutu.innerHTML='⏳ Yeni ilanlar resmî sitelerden alınıyor… Bulunanlar geldikçe listeye eklenir (birkaç dakika sürebilir).';
-    for(let n=0;n<360;n++){
+    if(r.durum==='hata'){kutu.innerHTML='⚠ Otomatik güncelleme çalışmadı: '+esc(r.mesaj||'');return}
+    if(r.durum==='taze'){kutu.innerHTML='✅ Veriler yakın zamanda güncellenmiş.';return}
+    kutu.innerHTML='⏳ Yeni ilanlar resmî sitelerden alınıyor… (birkaç dakika sürebilir, sayfayı kapatma)';
+    for(let n=0;n<240;n++){
       await new Promise(t=>setTimeout(t,5000));
       r=await (await fetch('guncelle.php?islem=durum',{cache:'no-store'})).json();
-      if(r.durum==='bitti'){await veriYenile(false);
-        kutu.innerHTML=tum.length?'✅ Güncelleme tamamlandı.':'⚠ Güncelleme bitti ama hiç ilan gelmedi.'+tani;return}
-      if(n%4===3) await veriYenile(false);   // yaklaşık 20 saniyede bir yeni gelenleri göster
+      if(r.durum==='bitti'){await veriYenile(false);kutu.innerHTML='✅ Güncelleme tamamlandı.';return}
     }
   }catch(e){kutu.innerHTML='ℹ guncelle.php bulunamadı; otomatik güncelleme kapalı.'}
 }

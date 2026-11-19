@@ -1,7 +1,7 @@
 """Ilan metninden bilgi cikaran yardimci fonksiyonlar (veritabani gerektirmez)."""
 import html
+from datetime import date, datetime
 import re
-from datetime import date, timedelta
 
 BASE = "https://www.ilan.gov.tr"
 DETAIL_URL = BASE + "/api/api/services/app/AdDetail/GetAdDetail"
@@ -29,26 +29,6 @@ _TR = str.maketrans("İıÖöÜüŞşÇçĞğ", "IiOoUuSsCcGg")
 def norm(text):
     """Turkce karakterleri sadelestirip BUYUK harfe cevirir (regex icin)."""
     return text.translate(_TR).upper()
-
-
-def pdf_metni(veri):
-    """PDF baytlarindan duz metin cikarir (pypdf kuruluysa). Cikaramazsa bos doner."""
-    try:
-        import io
-        from pypdf import PdfReader
-        okuyucu = PdfReader(io.BytesIO(veri))
-        parcalar = []
-        for sayfa in okuyucu.pages[:40]:
-            parcalar.append(sayfa.extract_text() or "")
-        return re.sub(r"\s+", " ", "\n".join(parcalar)).strip()
-    except Exception:
-        return ""
-
-
-def slug_baslik(url):
-    """'.../sosyal-guvenlik-kurumu-sozlesmeli-personel-alim-ilani-14-06-2024.pdf' -> okunur baslik."""
-    ad = re.sub(r"\.pdf$", "", url.split("?")[0].rstrip("/").split("/")[-1], flags=re.I)
-    return re.sub(r"[-_\s]+", " ", ad).strip().upper()
 
 
 def strip_html(raw):
@@ -98,29 +78,16 @@ def _tarihler(window):
     return out
 
 
-_GUN_ARALIGI_RE = re.compile(r"(\d{1,2})\s*[-\u2013]\s*(\d{1,2})\s+(" + "|".join(_AYLAR) + r")\s+(\d{4})")
-
-
 def parse_application_dates(text):
     """Ilan metninden (baslangic, bitis) basvuru tarihlerini cikarir; bulamazsa None.
 
     Sadece acik tarihler okunur. "Ilandan itibaren 10 gun" gibi goreli sureler
     tahmin edilmez, o durumda bitis None kalir.
     """
-    t = re.sub(r"\s+", " ", norm(text))
+    t = norm(text)
     start = end = None
     for m in re.finditer(r"BASVURU", t):
         window = t[m.start(): m.start() + 260]
-        aralik = _GUN_ARALIGI_RE.search(window)   # "1-7 ARALIK 2026"
-        if aralik:
-            try:
-                ay = _AYLAR[aralik.group(3)]
-                yil = int(aralik.group(4))
-                b, e = date(yil, ay, int(aralik.group(1))), date(yil, ay, int(aralik.group(2)))
-                if 2020 <= yil <= 2035 and e >= b:
-                    return b, e
-            except ValueError:
-                pass
         found = _tarihler(window)
         if len(found) >= 2 and found[1][2] >= found[0][2]:
             return found[0][2], found[1][2]
@@ -153,7 +120,7 @@ _KPSS_DISQUALIFY = re.compile(r"YDS|ALES|YABANCI DIL|MULAKAT|YAZILI|SOZLU")
 
 def parse_min_kpss(text):
     """KPSS taban puanini bulur (birden fazla kadro varsa EN DUSUGUNU); yoksa None."""
-    t = re.sub(r"\s+", " ", norm(text))
+    t = norm(text)
     values = []
     for pat in _KPSS_PATTERNS:
         for m in re.finditer(pat, t):
@@ -312,3 +279,45 @@ def baslik_ayir(baslik):
 def duz_metin(raw):
     raw = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw or "")
     return strip_html(raw)
+
+
+# ---------------------------------------------------------------- tablo bicimli puan ("P3 En az 75 puan")
+_TABLO_RE = re.compile(r"(?<![A-Z0-9])(P\s?\d{1,3})\s+(?:EN AZ|ASGARI)\s+(\d{2}(?:[.,]\d{1,2})?)\s*(?:\([^)]*\))?\s*PUAN")
+_ASGARI_RE = re.compile(r"(?:ASGARI|EN AZ)\s+(?:[A-Z]{3,12}\s*)?\(?(\d{2}(?:[.,]\d{1,2})?)\)?\s*(?:\([^)]*\))?\s*(?:PUAN|VE (?:DAHA )?(?:YUKSEK|UZERI))")
+
+
+def parse_puan_tablosu(text):
+    """{'P3': 65.0, 'P93': 65.0} ya da {} (ilanda satir satir yazan puanlar)."""
+    sonuc = {}
+    for m in _TABLO_RE.finditer(norm(text)):
+        t = m.group(1).replace(" ", "")
+        v = float(m.group(2).replace(",", "."))
+        if 40 <= v <= 100:
+            sonuc[t] = min(sonuc.get(t, v), v)
+    return sonuc
+
+
+def parse_puan_ek(text):
+    """'KPSS ... asgari 70 (yetmis) puan' gibi cumlelerden tek puan (yoksa None)."""
+    n = norm(text)
+    if "KPSS" not in n:
+        return None
+    degerler = []
+    for m in _ASGARI_RE.finditer(n):
+        once = n[max(0, m.start() - 160):m.start() + 60]
+        if "KPSS" not in once or _KPSS_DISQUALIFY.search(n[max(0, m.start() - 40):m.start()]):
+            continue
+        v = float(m.group(1).replace(",", "."))
+        if 40 <= v <= 100:
+            degerler.append(v)
+    return min(degerler) if degerler else None
+
+
+def tur_egitim(tur):
+    t = tur.upper()
+    if t == "P93":
+        return "Ön Lisans"
+    if t == "P94":
+        return "Ortaöğretim"
+    return "Lisans"
+    

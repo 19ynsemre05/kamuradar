@@ -1,0 +1,64 @@
+[
+  {
+    "ad": "Kamu İlan (SBB)",
+    "tur": "html",
+    "url": "https://kamuilan.sbb.gov.tr/",
+    "anahtar": [
+      "personel",
+      "alım",
+      "alim",
+      "işçi",
+      "isci",
+      "sözleşmeli",
+      "memur",
+      "sınav",
+      "sinav",
+      "alacak",
+      "alınacak",
+      "alımı",
+      "alimi"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": true,
+    "link_liste": true,
+    "belge": true
+  },
+  {
+    "ad": "Resmî Gazete İlanlar",
+    "tur": "html",
+    "url": "https://www.resmigazete.gov.tr/ilanlar",
+    "anahtar": [
+      "personel",
+      "alım",
+      "alim",
+      "işçi",
+      "isci",
+      "sözleşmeli",
+      "memur"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": true,
+    "belge": true,
+    "belge_kaydet": false,
+    "link_liste": false
+  },
+  {
+    "ad": "İŞKUR Kamu İşçi Alımı",
+    "tur": "html",
+    "url": "https://www.iskur.gov.tr/",
+    "anahtar": [
+      "kamu işçi",
+      "kamu isci",
+      "işçi alım",
+      "isci alim"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": true,
+    "belge": true,
+    "belge_kaydet": false,
+    "link_liste": false
+  }
+]

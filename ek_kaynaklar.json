@@ -12,17 +12,12 @@
       "sözleşmeli",
       "memur",
       "sınav",
-      "sinav",
-      "alacak",
-      "alınacak",
-      "alımı",
-      "alimi"
+      "sinav"
     ],
     "deneme": true,
     "aktif": true,
-    "detay": true,
-    "link_liste": true,
-    "belge": true
+    "detay": false,
+    "link_liste": true
   },
   {
     "ad": "Resmî Gazete İlanlar",
@@ -38,11 +33,7 @@
       "memur"
     ],
     "deneme": true,
-    "aktif": true,
-    "detay": true,
-    "belge": true,
-    "belge_kaydet": false,
-    "link_liste": false
+    "aktif": true
   },
   {
     "ad": "İŞKUR Kamu İşçi Alımı",
@@ -55,10 +46,6 @@
       "isci alim"
     ],
     "deneme": true,
-    "aktif": true,
-    "detay": true,
-    "belge": true,
-    "belge_kaydet": false,
-    "link_liste": false
+    "aktif": false
   }
 ]

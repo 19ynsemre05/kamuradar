@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-20T07:50:35+00:00",
- "son_kontrol": "2026-11-20T07:50:35+00:00",
+ "guncelleme": "2026-11-20T16:33:31+00:00",
+ "son_kontrol": "2026-11-20T16:33:31+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 12,
-   "son_basari": "2026-11-20T07:50:31+00:00",
-   "sayi": 146
+   "yeni": 4,
+   "son_basari": "2026-11-20T16:33:27+00:00",
+   "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 2,
-   "son_basari": "2026-11-20T07:50:32+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-20T16:33:29+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-20T07:50:35+00:00",
+   "son_basari": "2026-11-20T16:33:31+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2416,6 +2416,27 @@
    "akademik": false,
    "puanlar": {},
    "iptal": true
+  },
+  {
+   "id": 1734221859,
+   "institution": "ADALET BAKANLIĞI ADLİ TIP KURUMU",
+   "title": "Adalet Bakanlığı Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-06",
+   "application_start": "2026-11-30",
+   "link": "https://www.ilan.gov.tr/ilan/2298310/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-adalet-bakanligi-adli-tip-kurumu-baskanligi-sozlesmeli-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298310/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-adalet-bakanligi-adli-tip-kurumu-baskanligi-sozlesmeli-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "İLAN T.C. ADALET BAKANLIĞI Adli Tıp Kurumu Başkanlığı’ndan 1) Adli Tıp Kurumu Merkez ve Taşra Teşkilatında 6/6/1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararıyla yürürlüğe giren “Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar”a göre, 657 sayılı Devlet Memurları Kanunu’nun 4/B maddesi uyarınca sözleşmeli personel statüsünde istihdam edilmek üzere; Ek-1’de yeri, ünvanı, niteliği ve özel şartları belirtilen 181 pozisyon için Adli Tıp Kurumu Başkanlığınca yapılacak sözlü sınav sonucuna göre personel alımı yapılacaktır. 2) Adli Tıp Kurumu Başkanlığınca yapılacak sözlü sınavlara 2026 yılı KPSS’ye giren adaylardan her pozisyon için aranan puan türünden en az 70 puan alanlar başvurabilecektir. Başvuruda bulunacakların Adalet Bakanlığı Memur Sınav, Atama ve Nakil Yönetmeliğinin 5 ve 6 ncı maddelerinde yazılı olan şartlar ile bu ilanın 4 üncü maddesinde belirtilen şartları taşımaları gerekmektedir. 3) Sözlü sınavlara, merkezi sınavda alınan puanlar esas olmak kaydıyla, en yüksek puandan başlamak üzere her pozisyon için ilân edilen pozisyon sayısının 3 katı kadar aday çağrılacaktır. 4) Başvuruda bulunacakların aşağıdaki genel ve Ek-1’de belirtilen özel şartları taşımaları gerekmektedir. Genel şartlar: a) Türk vatandaşı olmak, b) Son başvuru günü olan 06 Aralık 2026 tarihinde 657 sayılı Kanunun 40 ıncı maddesindeki yaş şartlarını taşımak, İnfaz ve Koruma Memuru pozisyonu için merkezi sınavın (KPSS-2026) yapıldığı yılın Ocak ayının birinci günü itibarıyla 30 yaşını bitirmemiş olmak, (01 Ocak 1996 ve sonrası doğumlu olanlar sınava müracaat edebilecektir.) İnfaz ve Koruma Memuru pozisyonuna başvurup, puan sıralaması sonucu sözlü sınava katılmaya hak kazanan adayların boy-kilo ölçümleri sözlü sınav tarihinde yapılacaktır. Gerekli boy-kilo şartını sağlayamayan adaylar sözlü sınava alınmayacaktır. c) Askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak, askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş ya da yedek sınıfa geçirilmiş olmak, ç) 657 sayılı Kanunun 48/1-A/5 bendinde sayılan suçlardan mahkûm olmamak, d) 657 sayılı Kanunun 53 üncü maddesi hükümleri saklı kalmak kaydı ile görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak, e) Kamu haklarından mahrum olmamak, f) Son başvuru tarihi itibarıyla başvurulan pozisyon için gerekli öğrenim niteliğini taşıyor olmak. 5) Başvuru yeri ve şekli: Adaylar başvurularını e-Devlet üzerinden Adli Tıp Kurumu Başkanlığı - Kariyer Kapısı Kamu İşe Alım veya Kariyer Ka",
+   "checked_at": "2026-11-20T16:33:10+00:00",
+   "puanlar": {},
+   "akademik": false
   },
   {
    "id": 1735312266,
@@ -4978,6 +4999,27 @@
    "puanlar": {}
   },
   {
+   "id": 3717998634,
+   "institution": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Mardin Artuklu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "city": "MARDİN",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Mardin Artuklu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Birimlerine 2547 sayılı Yükseköğretim Kanunu. Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ile Mardin Artuklu Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi hükümleri doğrultusunda öğretim üyesi alınacaktır. Adayların 657 sayılı Devlet Memurları Kanununun 48 inci maddesindeki genel şartlan ve ilanda belirtilen diğer şartları taşımaları gerekmektedir. 1- Profesör kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında). doçentlik belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dit sınav sonuç belgesinin karekodlu e-Devlet çıktısı, 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 6 (Altı) adet USB eklenecektir. Kamu hizmetinde bulunanlar ve daha önce çalışıp aynlntış olanlar dahi hizmet belgelerini, müracaat dosyalarına eklemeleri gerekmektedir. Profesör kadrosuna atanacaklar, daimî statüde görev yapacaklardır. 2- Doçent kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında), doçentlik belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dil sınav sonuç belgesinin karekodlu e-Devlet çıktısı. 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 4 (Dört) adet USB eklenecektir. Kamu hizmetinde bulunanlar ve daha önce çalışıp ayrılmış olanlar dahi hizmet belgelerini müracaat dosyalarına eklemeleri gerekmektedir. Doçent kadrosuna atanacaklar, daimi statüde görev yapacaklardır. 3- Doktor Öğretim Üyesi kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında). doktora belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dil sınav sonuç belgesinin karekodlu e-Devlet çıktısı, 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 4 (Dört) adet USB eklenecektir. Kamu hizmetinde bulunanlar, daha önce çalışıp ayrılmış olsalar dahi hizmet belgelerini müracaat dosyalarına eklemeleri gerekmektedir. 4- Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulu tarafından denkliğinin onaylanmış olması ve bel",
+   "checked_at": "2026-11-20T16:33:08+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
    "id": 3725657156,
    "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
    "title": "BERGAMA BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 9 Aralık - 11 Aralık)",
@@ -4998,6 +5040,27 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3729998838,
+   "institution": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Mardin Artuklu Üniversitesi Öğretim Görevlisi Alım İlanı",
+   "city": "MARDİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-20",
+   "link": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Mardin Artuklu Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi. 2547 sayılı Yükseköğretim Kanunu ve öğretim Üyesi Dışındaki öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik hükümlerine göre öğretim görevlisi alınacaktır Genel ve Aranan Şartlar -657 sayılı Devlet Memurları Kanununun 48'inci maddesinde belirtilen şanları taşımak. •ALES' ten en az 70. Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir •Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4'lük ve 5'lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. - Devlet yükseköğretim kuramlarının araştırma görevlisi kadrolarına başvurularda tezli yüksek lisans, doktora veya sanatta yeterlik eğitimi öğrencisi olmak şartı aranır. •Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak şanı aranır. -Adaylarda, yabancı dille eğilim ve öğretim yapılan programlardaki öğretim görevlisi kadrolarına yapılacak atamalarda, atama yapılacak programın eğitim dilinde; bilim alanı yabancı dille ilgili kadrolara yapılacak öğretim görevlisi atamaları ile 4/11/1981 tarihli ve 2547 sayılı Yükseköğretim Kanununun 5 inci maddesinin birinci fıkrasının (ı) bendi uyarınca zorunlu yabancı dil dersini vermek üzere öğretim görevlisi kadrolarına yapılacak atamalarda ilgili dilde; yükseköğretim kuramlarının uluslararası ilişkiler ile yabancı dille ilgili uygulamalı birimlerinde istihdam edilecek öğretim görevlisi atamalarında, en az bir dilde Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 85 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puana sahip olma şartı aranır - İdare gerekli gördüğü takdirde ilanın her aşamasını iptal etme ve güncelleme hakkına sahiptir Muafiyet •Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak ola",
+   "checked_at": "2026-11-20T16:33:09+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 3763246659,
@@ -5302,6 +5365,27 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true
+  },
+  {
+   "id": 3993297745,
+   "institution": "İSTANBUL ÜNİVERSİTESİ - CERRAHPAŞA",
+   "title": "İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-04",
+   "application_start": "2026-11-20",
+   "link": "https://www.ilan.gov.tr/ilan/2298278/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298278/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "İstanbul Üniversitesi-Cerrahpaşa Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda ismi yazılı birimlerine, 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri 657 sayılı Devlet Memurları Kanunu’nun 48. maddesi, “Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği” nin ilgili maddeleri ve “İstanbul Üniversitesi-Cerrahpaşa Akademik Atanma Kriterlerine Dair Yönerge” uyarınca; Profesör, Doçent ve Doktor Öğretim Üyesi alınacaktır. - Başvurular aşağıda belirtilen tarihlerde Üniversitemiz Akademik Personel Başvuru Sisteminden (APBS) (https://apbs.iuc.edu.tr) çevrimiçi (online) olarak yapılacaktır. Şahsen veya postayla yapılan başvurular kabul edilmeyecektir. - Adaylar yapmış oldukları başvurularını ilanın son başvuru tarih ve saatine kadar güncelleyebilecek ancak ilan bitiş tarih ve saat itibariyle sistem erişime kapatılacağından herhangi bir değişiklik, ekleme veya güncelleme yapamayacaklardır. Adayların tamamlanan başvuruları Profesör ve Doçent kadroları için Personel Daire Başkanlığı; Doktor Öğretim Üyesi kadroları için ilgili Dekanlıklar/Müdürlükler tarafından değerlendirilerek “Başvuru Onay” sürecine alınacak ve onay bilgilerine ait sonuçlar adayların Akademik Personel Başvuru Sisteminde (APBS) kayıtlı e-posta adreslerine bildirilecektir. - Başvuru işlemlerinde tüm sorumluluk adaylara ait olup yanlış/eksik belge yükleme, ilan şartını taşımama, yanlış ilana başvurma gibi hatalı veya gerçeğe aykırı belge ile başvuruda bulunduğu veya gerçeğe aykırı beyanda bulunduğu tespit edilen adayların başvuruları onaylanmayacak; onaylanmış olsa dahi işlemleri iptal edilecek ve hiçbir hak talep edemeyeceklerdir. - Adaylar, tüm çevrimiçi başvuru süreçlerini tamamlayıp gerekli bütün dosyaları yükledikten sonra başvurusunun son adımında onaylama işlemini yapıp başvuru numarası almadıkları müddetçe başvurusu eksik sayılacak, bu adayların başvuruları değerlendirmeye alınmayacak ve hiçbir hak talep edemeyeceklerdir. - Başvurusu onaylanmayan adaylara ayrıca yazılı tebligat yapılmayacaktır. - Başvurunun onaylanması adayın atanmaya hak kazandığı anlamına gelmemektedir. Adaylar, Akademik Personel Başvuru Sisteminde (APBS) başvuru yapacağı kadroya göre eğitim, ünvan, yabancı dil, akademik faaliyetler ve istenilen diğer veri girişlerinin tamamlanması sonrasında aşağıda yer alan Başvuru Evrakına ilişkin belgeleri PDF formatında sisteme yükleyeceklerdir. BAŞVURU EVRAKI: 1. Kadroya Başvuru Dilekçesi (Dilekçe ıslak imzalandıktan sonra taranarak sisteme yüklenecektir.) 2. T",
+   "checked_at": "2026-11-20T16:33:11+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 4004683318,

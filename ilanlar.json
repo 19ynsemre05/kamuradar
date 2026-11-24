@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-24T04:48:11+00:00",
- "son_kontrol": "2026-11-24T04:48:11+00:00",
+ "guncelleme": "2026-11-24T15:22:55+00:00",
+ "son_kontrol": "2026-11-24T15:22:55+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-24T04:47:55+00:00",
-   "sayi": 163
+   "yeni": 7,
+   "son_basari": "2026-11-24T15:22:50+00:00",
+   "sayi": 169
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-24T04:48:05+00:00",
-   "sayi": 31
+   "yeni": 2,
+   "son_basari": "2026-11-24T15:22:52+00:00",
+   "sayi": 33
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T04:48:11+00:00",
+   "son_basari": "2026-11-24T15:22:55+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -591,6 +591,27 @@
    "puanlar": {}
   },
   {
+   "id": 320636633,
+   "institution": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İstanbul Nişantaşı Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-11",
+   "application_start": "2026-12-08",
+   "link": "https://www.ilan.gov.tr/ilan/2301150/kamu-akademik-personel-akademik-personel-alimlari-istanbul-nisantasi-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301150/kamu-akademik-personel-akademik-personel-alimlari-istanbul-nisantasi-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "T.C. İstanbul Nişantaşı Üniversitesi Rektörlüğünden; ÖĞRETİM ELEMANLARI ALINACAKTIR Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul/Meslek Yüksekokulu bölüm, anabilim dalı ve programlarına 2547 Sayılı Kanun’un ilgili maddeleri hükümlerince öğretim elemanları alınacaktır. Resmî Gazete ’de yayımlanan \"Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği\", 09/11/2018 tarih ve 30590 Sayılı Resmî Gazete ‘de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” ve “İstanbul Nişantaşı Üniversitesi Öğretim Üyesi Atama ve Yükseltme Ölçütleri Yönergesi” hükümleri uyarınca ilandaki \"Aranan Nitelikler\" başlığı altında yer alan koşulları sağlayan öğretim elemanlarından; Profesör kadrolarına başvuracak adaylar; Dijital başvuru sisteminde veya Web sayfamızda yer alan başvuru dilekçesi ve Açık Rıza Metni, YÖK formatında hazırlanmış olan özgeçmişi, vesikalık fotoğrafı, nüfus cüzdan fotokopisi, onaylı öğrenim belgeleri (lisans, yüksek lisans, doktora, doçentlik), (e-devlet üzerinden alınan mezuniyet belgeleri de kabul edilmektedir),(Yurt Dışından alınan diplomaların YÖK tarafından onaylandığını gösterir belge.) adli sicil belgesi, nüfus kayıt örneği belgesi, ikametgah belgesi, askerlik durum belgesi, e-devletten alınan SGK Tescil ve Hizmet Dökümü (barkodlu) belgesi, akademik bilimsel çalışma ve yayınlarını içeren dosyaların online bağlantı linki ve dijital başvuru sisteminde doldurulacak olan “İstanbul Nişantaşı Üniversitesi Öğretim Üyesi Atama ve Yükseltme Ölçütleri Yönergesi” uyarınca “İstanbul Nişantaşı Üniversitesi Profesör/Doçent/Doktor Öğretim Üyesi Kadrolarına Atamada Aranacak Ek Koşullar Puan Sistemi” tablosu ile birlikte aşağıda bağlantı linki belirtilen İnsan Kaynakları Daire Başkanlığı Dijital Başvuru Sistemine başvuru yapılması gerekmektedir. Doçent kadrolarına başvuracak adaylar; Dijital başvuru sisteminde veya Web sayfamızda yer alan başvuru dilekçesi ve Açık Rıza Metni, YÖK formatında hazırlanmış olan özgeçmişi, vesikalık fotoğrafı, nüfus cüzdan fotokopisi, onaylı öğrenim belgeleri (lisans, yüksek lisans, doktora, doçentlik), (e-devlet üzerinden alınan mezuniyet belgeleri de kabul edilmektedir),(Yurt Dışından alınan diplomaların YÖK tarafından onaylandığını gösterir belge.) adli sicil belgesi, nüfus kayıt örneği belgesi, ikametgah belgesi, askerlik durum belgesi, e-devletten alınan SGK Tescil ve Hizmet Dökümü (barkodlu) belgesi, aka",
+   "checked_at": "2026-11-24T15:22:35+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
    "id": 338492290,
    "institution": "ANADOLU ÜNİVERSİTESİ",
    "title": "ANADOLU ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK 16 Kasım - 30 Kasım",
@@ -797,6 +818,27 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PzcoBECsrpIOtcZL2%2bPFVmHtPMkVOyF6yTeq7aSIbgY6Cz2UpTVOIfnspoDCYnnJJUYLwpQYRYZN1Lc%2fhhK3udcP9DMVLi8GSttfWgXakp1XhOvmgumY%2bFiDtDsH2YNp",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 507337115,
+   "institution": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "city": "ÇANAKKALE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2301171/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301171/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin çeşitli birimlerine 2547 sayılı Kanunun 23, 24. ve 26. maddeleri, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ile Üniversitemiz Senatosunca belirlenen Öğretim Üyesi Kadrolarına Başvuru, Görev Süresi Uzatımı, Atanma ve Yükseltilme Kriterleri ( https://cdn.comu.edu.tr/cms/personel/files/1487-01072025-akademik-kadro-atama-kriterleri.pdf ) uyarınca öğretim üyesi alınacaktır. Adayların ilanda açıklama olarak belirtilen şartlar ile 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen şartları taşımaları gerekmektedir. Başvurular ilanın Resmî Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde sadece online olarak ( https://ilan.comu.edu.tr/ ) adresinden kabul edilecek ve bu link üzerinden işlemler yürütülecektir. Sistem üzerinden tamamlanmayan taslak durumundaki başvurular, belirtilen şartları taşımayan, eksik bilgi/belgesi olan adayların başvuruları kabul edilmeyecektir. (Online olarak yapılan başvurular için istenen tüm bilgi ve belgeler gerektiğinde Rektörlüğümüzce adaylardan fiziksel olarak istenebilecektir.) 1. Profesör ve Doçent kadroları daimi statüde olup, başvuracak adayların anabilim dalı/anasanat dalı/programını belirten dilekçelerini, özgeçmişlerini, diplomalarının tasdikli örneğini, onaylı kimlik kartını, bilimsel çalışma ile yayınlarını, Doçentlik Belgelerini, kamu hizmetinde bulunanların hizmet belgelerini, adli sicil kayıtlarını, Sigortalı çalışanlar için Sosyal Güvenlik Kurumundan alınmış hizmet döküm belgelerini (e-Devletten alınan karekodlu belgeler kabul edilir) online olarak ( https://ilan.comu.edu.tr/ ) adresine yüklemeleri gerekmektedir. Adayların Rektörlüğe hitaben yazdıkları başvuru dilekçelerinde başvurdukları birim ve anabilim dalı/anasanat dalı/program ile ilanın açıklama kısmında ifade edilen ek şart ve çalışma alanlarına ait yeterlikleri sağladıklarını belirtmeleri ve bunları belgelendirmeleri gerekmektedir. 2. Doçent kadrosuna kadrolu profesörler, doktor öğretim üyesi kadrosuna ise kadrolu profesörler ve kadrolu doçentler başvuramaz. İdare uygun gördüğü takdirde söz konusu ilanın her aşamasını iptal edebilir. 3. Doktor Öğretim Üyesi kadrosuna başvuracak adayların anabilim dalı/anasanat dalı/programını belirten dilekçelerini, özgeçmişlerini, diplomalarının tasdikli örneğini, onaylı kimlik kartını, bilimsel çalışma ile yayınlarını, kamu hizmetinde bulunanların hizmet belgelerini, adli sicil kayıtlarını, Sigortalı çalı",
+   "checked_at": "2026-11-24T15:22:32+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 508468475,
@@ -1180,6 +1222,48 @@
    "puanlar": {}
   },
   {
+   "id": 782321293,
+   "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Marmara Üniversitesi Öğretim Elemanı Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz Birimlerine 15.07.2018 tarihli Resmi Gazete'de yayımlanan 10 Sayılı Cumhurbaşkanlığı Kararnamesinin ilgili maddeleri, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanunun ilgili maddeleri ve 09.11.2018 tarihli Resmi Gazete’de yayımlanarak yürürlüğe giren “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular https://basvuru.marmara.edu.tr/personel adresi üzerinden istenen belgeler yüklenerek online olarak yapılacaktır. AÇIKLAMALAR -Adayların 657 sayılı Devlet Memurları Kanun'nun 48. maddesinin tüm şartları taşıyor olmaları gerekmektedir. -Adayların Devlet Hizmeti Yükümlülüğü bulunmaması gerekmektedir. -İlan edilen kadrolara müracaat edecek erkek adayların askerlik yönünden mahkeme veya bakaya durumunda olmamaları gerekmektedir. -Aynı tarihli ilanlarda adaylar, ilan edilen kadrolardan yalnızca birine başvurabilirler. -Özel Şartlarda başka bir puan şartı belirtilmemiş ise; ALES’ten en az 70 puan almış olmak gerekir. ALES puanının geçerlilk süresi sınav sonuçlarının açıklandığı tarihinden itibaren 5 yıldır. Mezkur Yönetmelik'in 14.maddesinin 1.fıkrası uyarınca merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. -İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacak, yapılmış olsa dahi iptal edilecektir. -İdarenin uygun gördüğü taktirde ilanın her aşaması iptal edilebilir. -İdare sınav takviminde zorunlu hallerde değişiklik yapma hakkına sahiptir. Aşağıda belirtilen internet adresinden yapılan tüm duyurular tebligat mahiyetinde olup, adaylara ayrıca yazılı tebligat yapılmayacaktır. SINAV TAKVİMİ İLK BAŞVURU TARİHİ : 24.11.2026 SON BAŞVURU TARİHİ : 08.12.2026 ÖN DEĞERLENDİRME TARİHİ : 15.12.2026 SÖZLÜ SINAVA GİRİŞ TARİHİ : 22.12.2026 SONUÇ AÇIKLAMA TARİHİ : 29.12.2026 İLAN NO BİRİM ADI BÖLÜMÜ ANABİLİM DALI KADRO ÜNVANI ADET DRC. BAŞVURU ŞEKLİ ALES PUAN TÜRÜ ÖZEL ŞARTLAR SONUÇLARIN AÇIKLANACAĞI İNTERNET ADRESİ 26.02.008 Yabancı Diller Yüksekokulu - Almanca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Almanca Öğr",
+   "checked_at": "2026-11-24T15:22:30+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
+   "id": 802968413,
+   "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Marmara Üniversitesi Öğretim Üyesi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz aşağıda belirtilen Birimine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Üniversitemiz Öğretim Üyeliğine Yükseltilme ve Atanma Kriterlerini sağlamış olmak koşuluyla Öğretim Üyesi alınacaktır. Başvurular ilanın yayım tarihinden itibaren 15 gün içinde https://basvuru.marmara.edu.tr/personel adresi üzerinden online olarak yapılacaktır. Adaylar aynı ilan dönemi içerisinde başvuru şartlarını sağladığı sadece bir ilana başvurabilecektir. Birden fazla ilana başvuru yapmış olan adayların başvuruları iptal edilecektir. Daha üst akademik ünvana sahip adayların, doktor öğretim üyesi ve doçent kadrolarına başvuruları kabul edilmeyecektir. Yabancı Dille Eğitim yapan Birimlere müracaatlarda Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik uygulanmaktadır. Yurtdışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları dikkate alınmayacaktır. İlk Başvuru Tarihi: 24.11.2026 Son Başvuru Tarihi: 08.12.2026 İlan No Birim Bölüm Anabilim/Anasanat/Program Kadro Ünvanı Derece İlan Metni 26.01.136 Atatürk Eğitim Fakültesi Eğitim Bilimleri Eğitim Yönetimi Dr.Öğr.Üyesi 1 Eğitim Yönetimi alanında yüksek lisans ve doktora yapmış olmak. Doktora sonrası SSCI kapsamındaki Q1 dergilerde yayımlanmış, en az biri tek yazarlı olmak üzere araştırma makaleleri bulunmak. Uluslararası destekli projelerde görev almış olmak. Yükseköğretim düzeyinde İngilizce ders verme yeterliğine ve deneyimine sahip olmak. 26.01.137 İletişim Fakültesi Halkla İlişkiler ve Tanıtım Kişilerarası İletişim Profesör 1 Doçentliğini Halkla İlişkiler alanında almış olmak, kişilerarası iletişim süreçleri, çatışma yönetimi, örgütsel ve ikna edici iletişim konularında lisans ve lisansüstü düzeyde ders verme tecrübesine sahip olmak, kişilerarası iletişim alanında TÜBİTAK ve Avrupa Birliği tarafından desteklenen ulusal ve uluslararası tamamlanmış araştırma projelerinde yürütücü olarak görev yapmış olmak, yükseköğretim kurumlarında İngilizce ders verebilecek yabancı dil yeterliliğine sahip olmak. 26.01.138 Teknoloji Fakültesi Siber Güvenlik Mühendisliği Siber Güvenlik Mühendisliği Doçent 1 Havacılık Mühendisliği lisans mezunu olmak, Doçentliğini Yönetim Bilişim Sistemleri alanında almış olmak. Lisans ",
+   "checked_at": "2026-11-24T15:22:29+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
    "id": 807563525,
    "institution": "SEGEM SİGORTACILIK EĞİTİM MERKEZİ",
    "title": "2026 Yılı Aktüerlik Sınavları İlanı",
@@ -1222,6 +1306,27 @@
    "akademik": true,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=zoye1geg%2buxDAUIV8HkW%2bwcb0oV3%2bs0HGqqPIgq0EDPGIyokUnvp5IiwmEmE8fx6HupcaF2o3XbNeAFuJ%2fyL8y0zuTDr1S1zUbiMaL996R%2fkvW7lVTgVj7C0ZUKHAxAO",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 819802814,
+   "institution": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-30",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026 (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-24T15:22:52+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
@@ -3272,6 +3377,27 @@
    "puanlar": {}
   },
   {
+   "id": 2281695877,
+   "institution": "REKABET KURUMU BAŞKANLIĞI",
+   "title": "REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-07",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Memur",
+   "description": "REKABET KURUMU BAŞKANLIĞI - REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI (A Grubu Memur (Kariyer Meslek))",
+   "checked_at": "2026-11-24T15:22:52+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
    "id": 2295777009,
    "institution": "GEBZE TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Gebze Teknik Üniversitesi Öğretim Elemanı Alım İlanı",
@@ -3890,6 +4016,27 @@
    "checked_at": "2026-11-19T09:19:03+00:00",
    "akademik": true,
    "puanlar": {}
+  },
+  {
+   "id": 2750195410,
+   "institution": "KÜLTÜR VE TURİZM BAKANLIĞI",
+   "title": "Kültür ve Turizm Bakanlığı Kültür ve Turizm Uzman Yardımcılığı Yarışma Sınav İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 80.0,
+   "quota": null,
+   "deadline": "2026-12-23",
+   "application_start": "2026-12-09",
+   "link": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Kültür ve Turizm Bakanlığından: KÜLTÜR VE TURİZM UZMAN YARDIMCILIĞI YARIŞMA SINAV İLANI Kültür ve Turizm Bakanlığı merkez teşkilatında çalıştırılmak üzere, Genel İdare Hizmetleri Sınıfında 9 uncu dereceden boş bulunan, 20 Kültür ve Turizm Uzman Yardımcısı kadrosuna atama yapmak amacıyla, Kültür ve Turizm Uzmanlığı Yönetmeliği hükümlerine göre, Kültür ve Turizm Uzman Yardımcısı alınacaktır. I– SÖZLÜ SINAVA KATILMA ŞARTLARI: a) 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak, b) Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak, (01/01/1992 ve daha sonra doğanlar başvurabilecektir.) c) İlanda yer alan kadrolar çerçevesinde ilgisine göre en az 4 (dört) yıllık lisans eğitimi veren veya bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki yüksek öğretim kurumlarının; 1. Mimarlık bölümünden mezunu olmak. 2. Şehir ve Bölge Planlama bölümünden mezun olmak. 3. Makine Mühendisliği bölümünden mezun olmak. 4. Çevre Mühendisliği bölümünden mezun olmak. 5. İktisat, İşletme bölümlerinden mezun olmak. 6. Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi bölümlerinden mezun olmak. 7. Uluslararası İlişkiler bölümünden mezun olmak. 8. Sanat Tarihi bölümünden mezun olmak. Ölçme, Seçme ve Yerleştirme Merkezi (ÖSYM) tarafından 2025 ve 2026 yılında yapılmış olan Kamu Personeli Seçme Sınavında; KTU.YRD.1- Mimarlık bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak Alınacak personel sayısı; 3 (üç) KTU.YRD.2- Şehir ve Bölge Planlama bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.3- Makine Mühendisliği bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.4- Çevre Mühendisliği bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 2 (iki) KTU.YRD.5- İktisat, İşletme bölümü mezunları için, a) KPSS P28 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.6- Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi bölümleri mezunları için, a) KPSS P29 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 2 (iki) KTU.YRD.7- Uluslararası İlişkiler bölümü mezunları için, a) KPSS P34 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.8- Sanat Tarihi bö",
+   "checked_at": "2026-11-24T15:22:34+00:00",
+   "puanlar": {},
+   "akademik": false
   },
   {
    "id": 2750305930,
@@ -5268,6 +5415,27 @@
    "employment_type": "Memur",
    "description": "Tarsus Üniversitesi Rektörlüğünden: ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen birimlerine, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Öğretim Görevlisi alınacaktır. GENEL VE ÖZEL ŞARTLAR: 1) 657 sayılı Devlet Memurları Kanunu'nun 48. maddesinde belirtilen şartları taşıyor olmak. 2) 2547 sayılı Yükseköğretim Kanunu ve “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”te yer alan genel ve özel koşulları taşıyor olmak. MÜRACAAT EDECEK ADAYLARDAN İSTENEN BELGELER (Ön Değerlendirme): 1) Başvuru Formu (Üniversitemiz Web Sayfasında Duyurular Alanında) 2) Nüfus Cüzdanı Fotokopisi 3) Özgeçmiş 4) Lisans/Lisansüstü diplomaların veya Geçici mezuniyet belgelerinin onaylı sureti veya e-Devlet üzerinden alınan mezuniyet belgesi (Yabancı öğretim kurumu mezunlarının diplomalarının Yükseköğretim Kurulu Başkanlığınca, doktora için Üniversitelerarası Kurulca denkliğini gösterir belge) 5) Lisans Transkripti onaylı sureti veya e-Devlet üzerinden alınan transkript belgesi (Lisans mezuniyet puanının hesaplanmasında YÖK’ün yayınlamış olduğu 4’lük ve 5’lik sistemin 100’lük Sistemde Eşdeğerliliği tabloları dikkate alınacaktır) 6) Merkezi Sınav (ALES) Belgesi (Son 5 yıl), lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü ya da ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. 7) 2 adet vesikalık fotoğraf (son altı ay içinde çekilmiş olmalı) 8) Yabancı Dil Belgesi (YÖKDİL, e-YÖKDİL, YDS, e-YDS, ÜDS, e-TEP ve ÖSYM tarafından yayımlanan güncel eş değerlik duyurusunda belirtilen diğer yabancı dil belgeleri geçerli olacaktır. Belge üzerindeki geçerlilik tarihi varsa bu tarih esas alınacaktır.) 9) Herhangi bir adli sicil kaydı olmadığına dair belge (e-Devlet üzerinden alınan belge) NOT: 1) Başvurular, şahsen veya posta yoluyla ilan metninde belirtilen başvuru yerlerine yapılacaktır. İlan edilen kadrolardan sadece birine müracaat edilecektir. Birden fazla kadroya başvuru yapanların başvurusu geçersiz sayılacaktır. Eksik belgeli başvurular ile posta yoluyla yapılan başvu",
    "checked_at": "2026-11-23T20:08:30+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
+   "id": 3694009181,
+   "institution": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "city": "ÇANAKKALE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin çeşitli birimlerine 2547 sayılı Yükseköğretim Kanunu, 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen genel şartlar, 10/07/2018 tarih ve 30474 sayılı Resmî Gazete'de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik uyarınca Öğretim Görevlisi ve Araştırma Görevlisi alınacaktır. Başvurular ilanın Resmî Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde sadece online olarak ( https://ilan.comu.edu.tr/ ) adresinden kabul edilecek ve bu link üzerinden işlemler yürütülecektir. Sistem üzerinden tamamlanmayan taslak durumundaki başvurular, belirtilen şartları taşımayan, eksik bilgi/belgesi olan adayların başvuruları kabul edilmeyecektir. (Online olarak yapılan başvurular için istenen tüm bilgi ve belgeler gerektiğinde Rektörlüğümüzce adaylardan fiziksel olarak istenebilecektir.) Bir adayın sadece bir kadroya başvurma hakkı vardır. GENEL ŞARTLAR 1. a) 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen şartları taşımak, b) ALES’ten en az 70 Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. Öğretim Görevlisi kadrosuna yapılacak başvurularda; adayın lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü ya da ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. Araştırma Görevlisi kadrosuna yapılacak başvurularda; ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. Özel yetenekle öğrenci alan programlar ile yabancı dil puanı ile öğrenci alan programlar için öğretim üyesi dışındaki öğretim elemanı kadrolarına başvurularda herhangi bir ALES puan türü kullanılacaktır. Eğitim Bilimleri bölümleri için (Rehberlik ve Psikolojik Danışmanlık hariç) araştırma görevlisi kadrolarına başvuracak adayın lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü kullanılacaktır. 2. Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesa",
+   "checked_at": "2026-11-24T15:22:31+00:00",
    "puanlar": {},
    "akademik": true
   },

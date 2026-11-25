@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T00:00:46+00:00",
- "son_kontrol": "2026-11-25T00:00:46+00:00",
+ "guncelleme": "2026-11-25T08:19:25+00:00",
+ "son_kontrol": "2026-11-25T08:19:25+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-25T00:00:12+00:00",
-   "sayi": 169
+   "yeni": 5,
+   "son_basari": "2026-11-25T08:19:22+00:00",
+   "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T00:00:44+00:00",
+   "son_basari": "2026-11-25T08:19:24+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T00:00:46+00:00",
+   "son_basari": "2026-11-25T08:19:25+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2012,6 +2012,27 @@
    "puanlar": {}
   },
   {
+   "id": 1252114584,
+   "institution": "ÇAĞ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çağ Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "city": "MERSİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-14",
+   "application_start": "2026-12-09",
+   "link": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Çağ Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemize 2547 sayılı Yükseköğretim Kanununu ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik uyarınca aşağıda belirtilen kadrolara tam gün statüde çalışacak öğretim elemanları alınacaktır. Başvurular bu ilanın aşağıda belirtilen son başvuru tarihine kadar istenen belgelerle birlikte Çağ Üniversitesi İnsan Kaynakları Direktörlüğüne şahsen veya posta aracılığı ile yapılabilir. Postadaki gecikmeler ve eksik belge ile yapılan başvurular dikkate alınmaz. İnternet üzerinden başvurular kabul edilmez. Akademik Birim Bölüm/ Program/ Anabilim Dalı Kadro Sayısı Ünvan ALES ve Merkezi Yabancı Dil Aranan Koşullar Sınav Takvimi İktisadi ve İdari Bilimler Fakültesi Uluslararası Finans ve Bankacılık 1 Arş. Gör. ALES (EA) 70 Yabancı Dil 85 Finans, Bankacılık, Finans ve Bankacılık, Finansal Ekonomi, Finansal Teknolojiler veya Sermaye Piyasaları alanlarının birinde tezli yüksek lisans mezunu veya öğrencisi olmak. Duyuru Başlama Tarihi : 25.11.2026 Son Başvuru Tarihi : 09.12.2026 Ön Değerlendirme Tarihi: 14.12.2026 Sınav Giriş Tarihi : 21.12.2026 Sonuç Açıklama Tarihi :25.12.2026 İktisadi ve İdari Bilimler Fakültesi Uluslararası Ticaret ve Lojistik 1 Arş. Gör. ALES (EA) 70 Yabancı Dil 85 Uluslararası ticaret ve lojistik, lojistik, lojistik yönetimi, tedarik zinciri yönetimi, endüstri mühendisliği alanlarının birinde tezli yüksek lisans mezunu veya öğrencisi olmak. İSTENEN BELGELER 1- Başvuru Formu (FRM-0113-Öğretim Görevlisi/Araştırma Görevlisi Başvuru Formu) 2- YÖK Formatlı Özgeçmiş. 3- Nüfus Cüzdanı Fotokopisi, 4- 1 Adet Fotoğraf 5- Adli Sicil Kaydı 6- Lisans/Yüksek Lisans /Doktora Diploması, Öğrenci ise Öğrenci Belgesi (Diploma Yurt Dışından Alınmış İse YÖK Denklik Belgesi) 7- Lisans Transkripti 8- ALES Belgesi 9- Yabancı Dil Belgesi Başvuru Adresi: Çağ Üniversitesi İnsan Kaynakları Direktörlüğü Yaşar Bayboğan Kampüsü Çukurova Uluslararası Havalimanı Yolu Üzeri 33800 Yenice-MERSİN",
+   "checked_at": "2026-11-25T08:19:07+00:00",
+   "puanlar": {},
+   "akademik": true
+  },
+  {
    "id": 1254622502,
    "institution": "BURDUR M.AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Mehmet Akif Ersoy Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
@@ -2364,6 +2385,27 @@
    "checked_at": "2026-11-19T09:20:07+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 1535315569,
+   "institution": "REKABET KURUMU BAŞKANLIĞI",
+   "title": "Rekabet Kurumu Başkanlığından Uzman Yardımcısı Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": 80.0,
+   "quota": null,
+   "deadline": "2026-12-21",
+   "application_start": "2026-12-07",
+   "link": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "REKABET KURUMU BAŞKANLIĞI REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI Rekabet Kurumunda (Kurum) çalıştırılmak üzere, Rekabet Kurumu Meslek Personeli Yönetmeliği (Yönetmelik) hükümleri çerçevesinde toplam 55 (elli beş) rekabet uzman yardımcısı alınacaktır. ÖĞRENİM DALLARI VE KONTENJANLAR : En az dört yıllık öğrenim veren yükseköğretim kurumlarının; 1) (15 kişilik) Rekabet uzman yardımcılığı (genel) kadrosu için; iktisat, siyasal bilgiler, işletme, iktisadi ve idari bilimler fakültelerinden veya işletme mühendisliği ya da endüstri mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 2) (15 kişilik) Rekabet uzman yardımcılığı (iktisat) kadrosu için; iktisat, işletme, ekonometri, istatistik, istatistik ve bilgisayar, matematik ve bilgisayar, matematik mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 3) (15 kişilik) Rekabet uzman yardımcılığı (hukuk) kadrosu için; hukuk fakültelerinden ya da buna denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 4) (10 kişilik) Rekabet uzman yardımcılığı (bilişim) kadrosu için; bilgisayar mühendisliği, adli bilişim mühendisliği, yazılım mühendisliği, yapay zekâ mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. SINAVA KATILMA KOŞULLARI Sınava katılacak olan adayların; 1) 657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde yer alan genel şartları taşımaları, 2) Yukarıda belirtilen yükseköğretim kurumlarından ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmaları, 3) Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmaları, 4) Görevini devamlı yapmalarına engel olabilecek bir hastalıklarının bulunmaması, 5) Son başvuru tarihi itibarıyla 2025 - 2026 Kamu Personel Seçme Sınavlarından: a) Rekabet uzman yardımcılığı (genel) kadrosu için; KPSS P19, KPSS P24, KPSS P26, KPSS P27, KPSS P28, KPSS P33, KPSS P38 veya KPSS P41 puan türlerinin herhangi birinden en az 80 (seksen) puan almaları ve başvuruda bulunanlardan en yüksek puanlı 300 (üç yüz) kişi içerisinde bulunmaları, b) Rekabet uzman yardımcılığı (ik",
+   "checked_at": "2026-11-25T08:19:05+00:00",
+   "puanlar": {},
+   "akademik": false
   },
   {
    "id": 1571835289,
@@ -3073,6 +3115,28 @@
    "checked_at": "2026-11-19T09:17:52+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 2128423999,
+   "institution": "BİRUNİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İptal İlanı (Biruni Üniversitesi Rektörlüğü)",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2302677/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-biruni-universitesi-rektorlugu-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302677/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-biruni-universitesi-rektorlugu-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Biruni Üniversitesi Rektörlüğünden: İPTAL İLANI 13.11.2026 tarihli ve 33429 sayılı Resmî Gazete’de aslına uygun olarak yayımlanan ilanımız aşağıdaki belirtilen kadro ilanı iptal edilmiştir. İlan Başlama Tarihi : 13.11.2026 İlan Bitiş Tarihi : 27.11.2026 FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİMDALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO UNVANI KADRO SAYISI ALES PUANI YABANCI DİL PUANI MESLEK YÜKSEKOKULU Fizyoterapi Fizyoterapi ve Rehabilitasyon alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 - 12156/1-1",
+   "checked_at": "2026-11-25T08:19:06+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "iptal": true
   },
   {
    "id": 2139189223,
@@ -4844,6 +4908,27 @@
    "checked_at": "2026-11-19T09:17:46+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3281215773,
+   "institution": "MANİSA CELAL BAYAR ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Manisa Celal Bayar Üniversitesi Rektörlüğü Akademik Personel Alım İlanı",
+   "city": "MANİSA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-09",
+   "application_start": "2026-11-25",
+   "link": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Manisa Celal Bayar Üniversitesi Rektörlüğünden: A) ÖĞRETİM ÜYESİ KADROLARINA (PROFESÖR, DOÇENT, DOKTOR ÖĞRETİM ÜYESİ) AİT İLAN Üniversitemiz Akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili hükümleri ile Manisa Celal Bayar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi hükümleri doğrultusunda Öğretim Üyesi alınacaktır. GEREKLİ BELGELER Lisans, yüksek lisans, doktora mezuniyet belgeleri ile doçentlik belgesi (profesör ve doçent kadroları için), yabancı dil sın av sonuç belgesi, Özgeçmiş, Niyet Mektubu, Başlıca Araştırma Eseri (Profesör kadroları için) ve bilimsel çalışma ve yayınları içeren dosyaların taranarak https://aed-basvuru.mcbu.edu.tr/ web adresine yüklenmesi gerekmektedir. Adayların dosya halinde başvuruda teslim etmesi gerekli belgeler: Öğretim Üyesi Başvuru Dilekçesi (Dilekçe girilen bilgiler doğrultusunda sistem tarafından otomatik üretilmektedir. Oluşan dil ekçe çıktı alınıp imzalanacaktır.), Son 6 (altı) ay içinde çekilmiş bir adet fotoğraf, kimlik fotokopisi, lisans, yüksek lisans, doktora mezuniyet belgeleri ile doçentlik belgesi (profesör ve doçent kadroları için), yabancı dil sınav sonuç belgesi, Özgeçmiş, Niyet Mektubu, Akademik Etkinlik Değerlendirme Beyan Formu (Form girilen yayınlar doğrultusunda sistem tarafından otomatik üretilmektedir. Oluşan form çıktı alınıp imzalanacaktır.) ile Üniversitemiz dışından başvuracak adaylardan herhangi bir kamu kuruluşunda çalışanların (daha önce çalışıp ayrılsalar dahi) e-Devlet üzerinden alacakları \"HİTAP Hizmet Belgesini\" müracaatlarına eklemeleri gerekmekte olup; “Manisa Celal Bayar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi”ne https://personel.mcbu.edu.tr/Sayfa/Ynergeler adresinden, ulaşılabilmektedir. GENEL ŞARTLAR - Adayların 657 sayılı Devlet Memurları Kanunu'nun 48. maddesindeki genel ve ilanda belirtilen diğer koşulları taşımaları gerekmektedir. - Yurt Dışı Kurumlardan alınan diplomaların Üniversitelerarası Kurulca Denkliğinin onaylanmış olması şarttır. - İlan şartlarımızı taşıyan adayların 25.11.2026 tarihinden 09.12.2026 tarihi mesai bitimine kadar https://aed-basvuru.mcbu.edu.tr/ web adresi üzerinden elektronik olarak başvuru yapmaları gerekmekte olup, dosya halinde başvuruda teslim edilmesi gereken belgeleri ise en geç 16.12.2026 tarihi mesai bitimine kadar Profesör ve Doçent adaylarının Üniversitemiz Personel Daire Başkanlığına, Doktor Öğretim Üyesi adaylarının ise kadronun ilan e",
+   "checked_at": "2026-11-25T08:19:08+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 3331030616,

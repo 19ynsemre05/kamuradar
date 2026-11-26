@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-25T18:44:03+00:00",
- "son_kontrol": "2026-11-25T18:44:03+00:00",
+ "guncelleme": "2026-11-26T01:58:28+00:00",
+ "son_kontrol": "2026-11-26T01:58:28+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-25T18:43:58+00:00",
+   "son_basari": "2026-11-26T01:58:23+00:00",
    "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-25T18:44:00+00:00",
-   "sayi": 33
+   "yeni": 2,
+   "son_basari": "2026-11-26T01:58:25+00:00",
+   "sayi": 35
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T18:44:03+00:00",
+   "son_basari": "2026-11-26T01:58:27+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2716,6 +2716,27 @@
    "puanlar": {}
   },
   {
+   "id": 1905517489,
+   "institution": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "1 ADET SÖZLEŞMELİ BİLİŞİM PERSONEL ALIM İLANI",
+   "city": "Mersin",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-26",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 ADET SÖZLEŞMELİ BİLİŞİM PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-26T01:58:25+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
    "id": 1915452504,
    "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
@@ -3092,6 +3113,27 @@
    "description": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI 6 MEMUR ALACAK ( 30 Kasım - 2 Aralık)",
    "checked_at": "2026-11-19T09:21:28+00:00",
    "kontrol_gerekli": true,
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
+   "id": 2090934114,
+   "institution": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ PERSONEL ALIM İLANI - BİLGİSAYAR MÜHENDİSİ (İSTANBUL)",
+   "city": "İstanbul",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-26",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI - SÖZLEŞMELİ PERSONEL ALIM İLANI - BİLGİSAYAR MÜHENDİSİ (İSTANBUL) (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-26T01:58:25+00:00",
    "akademik": false,
    "puanlar": {}
   },

@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-27T11:28:21+00:00",
- "son_kontrol": "2026-11-27T11:28:21+00:00",
+ "guncelleme": "2026-11-27T20:15:50+00:00",
+ "son_kontrol": "2026-11-27T20:15:50+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 9,
-   "son_basari": "2026-11-27T11:28:14+00:00",
+   "yeni": 1,
+   "son_basari": "2026-11-27T20:15:45+00:00",
    "sayi": 196
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-27T11:28:16+00:00",
-   "sayi": 36
+   "yeni": 6,
+   "son_basari": "2026-11-27T20:15:47+00:00",
+   "sayi": 42
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T11:28:21+00:00",
+   "son_basari": "2026-11-27T20:15:50+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -542,6 +542,27 @@
    "akademik": true
   },
   {
+   "id": 280377750,
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-02",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a72d5bb6-a2c6-4ba9-b937-0057ef8fc0ea",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "GELİR İDARESİ BAŞKANLIĞI - SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
    "id": 293922587,
    "institution": "AKSEKİ BELEDİYE BAŞKANLIĞI",
    "title": "AKSEKİ BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 21 Aralık - 25 Aralık)",
@@ -859,6 +880,27 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PzcoBECsrpIOtcZL2%2bPFVmHtPMkVOyF6yTeq7aSIbgY6Cz2UpTVOIfnspoDCYnnJJUYLwpQYRYZN1Lc%2fhhK3udcP9DMVLi8GSttfWgXakp1XhOvmgumY%2bFiDtDsH2YNp",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 468355653,
+   "institution": "AVRUPA BİRLİĞİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-27",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "AVRUPA BİRLİĞİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
@@ -2860,6 +2902,27 @@
    "description": "KEŞAN BELEDİYE BAŞKANLIĞI2 MEMUR ALACAK ( 16 Kasım - 19 Kasım)",
    "checked_at": "2026-11-19T09:21:28+00:00",
    "kontrol_gerekli": true,
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
+   "id": 1904118721,
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ TEKNİKER GİRİŞ SINAVI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-02",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=fbe6dbe7-e178-4680-8509-e91d11d9e505",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "GELİR İDARESİ BAŞKANLIĞI - SÖZLEŞMELİ TEKNİKER GİRİŞ SINAVI (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
    "akademik": false,
    "puanlar": {}
   },
@@ -5840,6 +5903,27 @@
    "puanlar": {}
   },
   {
+   "id": 3644876804,
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) GİRİŞ SINAVI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-02",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26bdd65d-ebb3-4070-b9d4-2b8e46fa4fa4",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "GELİR İDARESİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) GİRİŞ SINAVI (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
    "id": 3661902158,
    "institution": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI",
    "title": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 21 Aralık - 5 Ocak)",
@@ -6204,6 +6288,27 @@
    "akademik": true,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=vYBYr4k2bybWrJISfKY3y08nusK%2b6ejCaSDIc0yXw0Ah5m0HMyToXyuwgatoBMTFS%2frHXJaTSqrW1PK4eoko%2foNQ0FP23yB8Eajzx%2fMbxuLr%2bpgUxn0B5mtUVfetnmKa",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 3875965609,
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ DESTEK PERSONELİ (HİZMETLİ)",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-02",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=01a31fb6-9c44-4e45-9d17-f47f7ed2e8bd",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=01a31fb6-9c44-4e45-9d17-f47f7ed2e8bd",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "GELİR İDARESİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (HİZMETLİ) (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
@@ -6966,6 +7071,27 @@
    "employment_type": "Sözleşmeli personel",
    "description": "Marmara Üniversitesi Rektörlüğünden: 657 SAYILI DEVLET MEMURLARI KANUNUNUN DEĞİŞİK 4/B MADDESİNE GÖRE SÖZLEŞMELİ PERSONEL ALIM İLANI Üniversitemizde 657 sayılı Devlet Memurları Kanununun 4.maddesinin (B) fıkrasına göre Sözleşmeli Personel olarak istihdam edilmek üzere 06.06.1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar’ın Ek 2inci maddesinin (b) fıkrasına göre 2026 KPSS (B) grubu puan sırasına göre her bir unvan için boş bulunan sözleşmeli personel pozisyonunun en fazla üç katına kadar çağrılacak aday arasında yapılması kaydıyla sözlü sınav yapılmak suretiyle aşağıda belirtilen pozisyonlarda sözleşmeli personel alınacaktır. KOD POZİSYON ADET ÖĞRENİM CİNSİYET ARANILAN NİTELİKLER M01 Mühendis 1 LİSANS KADIN/ERKEK 1-İnşaat Mühendisliği lisans programından mezun olmak. 2-Son başvuru tarihi itibariyle 30 yaşını doldurmamış olmak. 3-Yükseköğretim kurumlarında örgün (Lisans) eğitim öğrencisi kaydı bulunmamak. M02 Mühendis 2 LİSANS KADIN/ERKEK 1-Elektrik Mühendisliği, Elektrik ve Elektronik Mühendisliği, Elektrik-Elektronik Mühendisliği lisans programlarının birinden mezun olmak. 2-Son başvuru tarihi itibariyle 30 yaşını doldurmamış olmak. 3-Yükseköğretim kurumlarında örgün (Lisans) eğitim öğrencisi kaydı bulunmamak. T01 Tekniker 3 ÖNLİSANS KADIN/ERKEK 1-Elektrik veya Elektrik Teknolojisi ön lisans programından mezun olmak. 2-Son başvuru tarihi itibariyle 30 yaşını doldurmamış olmak. 3-Yükseköğretim kurumlarında örgün (Lisans) eğitim öğrencisi kaydı bulunmamak. T02 Tekniker 4 ÖNLİSANS KADIN/ERKEK 1-Bilgisayar Programcılığı, Bilgisayar Programcılığı (İnternet), Bilgisayar Programlama, Bilgisayar Teknolojisi ve Programlama, Web Teknolojileri ve Programlama, Bilgisayar Bilimleri, Arka-Yüz Yazılım Geliştirme, Ön-Yüz Yazılım Geliştirme ön lisans programlarının birinden mezun olmak. 2-Son başvuru tarihi itibariyle 30 yaşını doldurmamış olmak. 3-Yükseköğretim kurumlarında örgün (Lisans) eğitim öğrencisi kaydı bulunmamak. BAŞVURU ŞARTLARI A) GENEL ŞARTLAR 1- Başvuracak adaylarda 657 sayılı Kanunun 48. maddesinde belirtilen genel şartlar aranır. 2- 2026 KPSS (B) grubu sınavına girmiş olmak. Lisans mezunları için 2026 KPSS (P3) ve Ön lisans mezunları için 2026 KPSS (P93) Puanı esas alınacaktır. 3- Başvuracak adayların durumunun; 657 sayılı Devlet Memurları Kanununun 4/B maddesinin “Bu şekilde istihdam edilenler, hizmet sözleşmesi esaslarına aykırı hareket etmesi nedeniyle kurumlarınca sözleşm",
    "checked_at": "2026-11-19T09:19:19+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
+   "id": 4289365528,
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "title": "Sözleşmeli Avukat",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-02",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=d6665f54-0008-46c3-b9c5-a8eb809e7c42",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=d6665f54-0008-46c3-b9c5-a8eb809e7c42",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "GELİR İDARESİ BAŞKANLIĞI - Sözleşmeli Avukat (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T20:15:47+00:00",
    "akademik": false,
    "puanlar": {}
   },

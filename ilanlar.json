@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-26T19:53:09+00:00",
- "son_kontrol": "2026-11-26T19:53:09+00:00",
+ "guncelleme": "2026-11-27T02:41:08+00:00",
+ "son_kontrol": "2026-11-27T02:41:08+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-26T19:53:01+00:00",
+   "son_basari": "2026-11-27T02:41:04+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-26T19:53:06+00:00",
-   "sayi": 35
+   "yeni": 1,
+   "son_basari": "2026-11-27T02:41:05+00:00",
+   "sayi": 36
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T19:53:09+00:00",
+   "son_basari": "2026-11-27T02:41:08+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -3830,6 +3830,27 @@
    "akademik": true,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=bNRPySzq3HGSbXcmljjesFaUe4BVnD3bM3UhgG7jVju6Hp83ca8yirnSGNuKitOwRi6UuXgve7SWRXFRrYEDkqpKivOFmhD%2bwXq3b47GO%2bKF8lvgxrNX%2fBunEBFZnJ1E",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 2401132957,
+   "institution": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "SELÇUK ÜNİVERSİTESİ SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-27",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ - SELÇUK ÜNİVERSİTESİ SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-27T02:41:05+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {

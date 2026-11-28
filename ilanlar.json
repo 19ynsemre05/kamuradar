@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-27T20:15:50+00:00",
- "son_kontrol": "2026-11-27T20:15:50+00:00",
+ "guncelleme": "2026-11-28T02:49:06+00:00",
+ "son_kontrol": "2026-11-28T02:49:06+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-27T20:15:45+00:00",
+   "son_basari": "2026-11-28T02:49:01+00:00",
    "sayi": 196
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 6,
-   "son_basari": "2026-11-27T20:15:47+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-28T02:49:03+00:00",
    "sayi": 42
   },
   "Kamu İlan (SBB)": {
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T20:15:50+00:00",
+   "son_basari": "2026-11-28T02:49:06+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
